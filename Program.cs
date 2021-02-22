@@ -8,18 +8,21 @@ namespace ChooseYourStory
         
         public static void Start()
         {
-             /*Fix this line later, add more info about the story and make it interesting*/
+             /*Fix this line later, add more info about the story and make it interesting and give instructions*/
             Console.WriteLine("Welcome to the Choose Your own Story Game!");
             NameCharacter();
             Options();
+            /*I need to break this off and end it, something like End(), and the option to finish earlier?*/
         }
         static void NameCharacter()
         {
             Console.WriteLine("First, what is your Character's name?");
             CharacterName = Console.ReadLine();
 
-            Console.WriteLine("Your name is " + CharacterName + "? Oh... great name... It's uh, very creative.");
+            Console.WriteLine("Your character's name is " + CharacterName + "? Oh... great name... It's uh, very creative.");
+            /*Maybe analyze the text(name) here in some way?*/
         }
+        /*Pick up a random object here? From a list?*/
         static void Options()
         {
             string input = "";
@@ -38,6 +41,7 @@ namespace ChooseYourStory
             else if (input == "C")
             {
                 Console.WriteLine ("Weird Ending");
+                /*Add a weird quote here from a text file? Or an API? JSON?*/
             }
             else if (input == "D")
             {

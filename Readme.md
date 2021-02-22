@@ -7,9 +7,13 @@
 ## Features that are included in this project according to the "3 required features" project requirements:
 <br>
 
+<!---
+The following features are currently not finalized and may change, this is just a list of features I am thinking about using
+-->
+
 1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
 
-  --> Prompts player with a list of options that leads to a branching story
+--> 
 
 2. Create an additional class which inherits one or more properties from its parent
 
@@ -19,13 +23,17 @@
 
 --> 
 
-4. 
+4. Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
 
 --> 
 
-5. 
+5. Analyze text and display information about it (ex: how many words in a paragraph)
 
 --> 
+
+6. Visualize data in a graph, chart, or other visual representation of data
+
+-->
 
 <br>
 <br>
