@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ChooseYourStory
 {
@@ -41,7 +42,9 @@ namespace ChooseYourStory
             else if (input == "C")
             {
                 Console.WriteLine ("Weird Ending");
-                /*Add a weird quote here from a text file? Or an API? JSON?*/
+                /*This pulls a quote from quote.txt file*/
+                string text = System.IO.File.ReadAllText(@"quote.txt");
+                Console.WriteLine("{0}", text);
             }
             else if (input == "D")
             {

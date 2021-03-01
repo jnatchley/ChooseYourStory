@@ -7,9 +7,9 @@
 ## Features that are included in this project according to the "3 required features" project requirements:
 <br>
 
-<!---
+
 The following features are currently not finalized and may change, this is just a list of features I am thinking about using
--->
+
 
 1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
 
@@ -25,7 +25,7 @@ The following features are currently not finalized and may change, this is just 
 
 4. Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
 
---> 
+--> Pulled a quote from quote.txt for one of the paths chosen and displayed it
 
 5. Analyze text and display information about it (ex: how many words in a paragraph)
 
