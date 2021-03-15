@@ -11,9 +11,9 @@
 The following features are currently not finalized and may change, this is just a list of features I am thinking about using
 
 
-1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program [ ]
+1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program [x]
 
---> 
+--> Loop is implemented where user can continue to the program or exit it with "Q"
 
 2. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program [x]
 
@@ -39,11 +39,11 @@ The following features are currently not finalized and may change, this is just 
 -A one paragraph or longer description of what the project is [x]
 -Which 3+ features are included from the list to meet the requirements [x]
 -Any special instructions required for the reviewer to run the project [x]
-3. At least 3 items on the Features List and implemented them in project [ ]
-4. Creation of at least 1 class, as well as an object of that class populated with data that is used in the project. [ ]
+3. At least 3 items on the Features List and implemented them in project [x]
+4. Creation of at least 1 class, as well as an object of that class populated with data that is used in the project. [x]
 5. Created and called at least 3 functions or methods, with at least one return value [ ]
 <br>
 <br>
 
 
-*No special instructions are needed to run this project.*
+*No special instructions are needed to run this project. Simply download the project files and use "dotnet run" in the terminal once opened*

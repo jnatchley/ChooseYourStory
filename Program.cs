@@ -3,37 +3,38 @@ using System.Collections.Generic;
 
 namespace ChooseYourStory
 {
-    /*figure out how to include this list*/
     public class Items 
     {        
-        // List<string> items = new List<string>();
+        // Class not needed for now, can be used for the inventory later if desired
     
     }
-    public static class Game
+    public class Game
     {
-        static string CharacterName = "blank";
-        static List<string> Inventory = new List<string>();
-        public static void Start()
+        string CharacterName = "blank";
+        List<string> Inventory = new List<string>();
+        public void Start()
         {
              /*Fix this line later, add more info about the story and make it interesting and give instructions*/
             Console.WriteLine("Welcome to the Choose Your own Story Game!");
             NameCharacter();
+        
             Options();
             EndGame();
-            /*I need to break this off and end it, something like End(), and the option to finish earlier?*/
         }
-        static void NameCharacter()
+        void NameCharacter()
         {
             Console.WriteLine("First, what is your Character's name?");
             CharacterName = Console.ReadLine();
 
             Console.WriteLine("Your character's name is " + CharacterName + "? Oh... great name... It's uh, very creative.");
             Console.WriteLine("It's {0} characters long. Yes, that's right. I can count.", CharacterName.Length);
-            /*Maybe analyze the text(name) here in some way?*/
         }
-        /*Pick up a random object here? From a list?*/
-        static void Options()
+        void Options()
         {
+            Console.WriteLine("Press Q to quit!");
+            var option = Console.ReadLine();
+            while (option != "Q")
+            {
             string input = "";
             /*Fix this line later, make it interesting*/
             Console.WriteLine("You gotta go to either A, B, C, D. Choose one.");
@@ -72,9 +73,11 @@ namespace ChooseYourStory
                 Inventory.Add("banana");
                 Console.WriteLine ("Banana ending.");
             }
-
+        Console.WriteLine("Do you want to continue? Press any key to continue or Q to quit.");
+        option = Console.ReadLine();
+            }
         }
-        public static void EndGame()
+        public void EndGame()
         {
             Console.WriteLine("This is the end");
             Console.WriteLine("Congrats! Here is what you discovered on your journey:");
@@ -90,6 +93,7 @@ namespace ChooseYourStory
     {
         static void Main()
         {
+            var Game = new Game();
             Game.Start();
             Console.ReadKey();
         }
