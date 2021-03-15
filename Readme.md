@@ -11,19 +11,19 @@
 The following features are currently not finalized and may change, this is just a list of features I am thinking about using
 
 
-1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
+1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program [ ]
 
 --> 
 
-3. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+2. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program [x]
 
---> 
+--> Created inventory list, and this is recalled at the end of your journey.
 
-4. Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
+3. Read data from an external file, such as text, JSON, CSV, etc and use that data in your application [x]
 
 --> Pulled a quote from quote.txt for one of the paths chosen and displayed it
 
-5. Analyze text and display information about it (ex: how many words in a paragraph)
+4. Analyze text and display information about it (ex: how many words in a paragraph) [x]
 
 --> Analyzes Character's name and tells user how many characters are in it. 
 
