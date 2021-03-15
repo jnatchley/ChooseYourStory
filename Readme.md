@@ -15,10 +15,6 @@ The following features are currently not finalized and may change, this is just 
 
 --> 
 
-2. Create an additional class which inherits one or more properties from its parent
-
---> 
-
 3. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
 
 --> 
@@ -29,25 +25,23 @@ The following features are currently not finalized and may change, this is just 
 
 5. Analyze text and display information about it (ex: how many words in a paragraph)
 
---> 
+--> Analyzes Character's name and tells user how many characters are in it. 
 
-6. Visualize data in a graph, chart, or other visual representation of data
 
--->
 
 <br>
 <br>
 
 ## In addition, these requirements have also been met:
 
-1. Project is uploaded to GitHub repository and shows at minimum 5 separate commits
+1. Project is uploaded to GitHub repository and shows at minimum 5 separate commits [x]
 2. Project includes a README file that explains the following:
--A one paragraph or longer description of what the project is
--Which 3+ features are included from the list to meet the requirements
--Any special instructions required for the reviewer to run the project
-3. At least 3 items on the Features List and implemented them in project
-4. Creation of at least 1 class, as well as an object of that class populated with data that is used in the project.
-5. Created and called at least 3 functions or methods, with at least one return value
+-A one paragraph or longer description of what the project is [x]
+-Which 3+ features are included from the list to meet the requirements [x]
+-Any special instructions required for the reviewer to run the project [x]
+3. At least 3 items on the Features List and implemented them in project [ ]
+4. Creation of at least 1 class, as well as an object of that class populated with data that is used in the project. [ ]
+5. Created and called at least 3 functions or methods, with at least one return value [ ]
 <br>
 <br>
 

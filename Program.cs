@@ -3,6 +3,12 @@ using System.Collections.Generic;
 
 namespace ChooseYourStory
 {
+    /*figure out how to include this list*/
+    public class Items 
+    {        
+        List<string> items = new List<string>();
+    
+    }
     public static class Game
     {
         static string CharacterName = "blank";
@@ -21,6 +27,7 @@ namespace ChooseYourStory
             CharacterName = Console.ReadLine();
 
             Console.WriteLine("Your character's name is " + CharacterName + "? Oh... great name... It's uh, very creative.");
+            Console.WriteLine("It's {0} characters long. Yes, that's right. I can count.", CharacterName.Length);
             /*Maybe analyze the text(name) here in some way?*/
         }
         /*Pick up a random object here? From a list?*/
