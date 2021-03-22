@@ -31,7 +31,7 @@ namespace ChooseYourStory
         }
         void Options()
         {
-            Console.WriteLine("Press Q to quit!");
+            Console.WriteLine("Press Q to quit! Or anything else to continue. ");
             var option = Console.ReadLine();
             while (option != "Q")
             {
@@ -86,6 +86,7 @@ namespace ChooseYourStory
             {
                 Console.WriteLine(item);
             }
+            
         }
   
     }

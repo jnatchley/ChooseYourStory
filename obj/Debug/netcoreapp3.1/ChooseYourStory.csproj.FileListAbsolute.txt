@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.exe
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.deps.json
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.runtimeconfig.json
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.dll
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\bin\Debug\netcoreapp3.1\ChooseYourStory.pdb
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.dll
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.pdb
+C:\Users\Admin\Desktop\Code_Louisville\ChooseYourStory\obj\Debug\netcoreapp3.1\ChooseYourStory.genruntimeconfig.cache
