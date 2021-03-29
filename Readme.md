@@ -41,7 +41,7 @@ The following features are currently not finalized and may change, this is just 
 -Any special instructions required for the reviewer to run the project [x]
 3. At least 3 items on the Features List and implemented them in project [x]
 4. Creation of at least 1 class, as well as an object of that class populated with data that is used in the project. [x]
-5. Created and called at least 3 functions or methods, with at least one return value [ ]
+5. Created and called at least 3 functions or methods, with at least one return value [x]
 <br>
 <br>
 
