@@ -8,9 +8,6 @@
 <br>
 
 
-The following features are currently not finalized and may change, this is just a list of features I am thinking about using
-
-
 1. Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program [x]
 
 --> Loop is implemented where user can continue to the program or exit it with "Q"
